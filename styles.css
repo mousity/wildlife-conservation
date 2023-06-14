@@ -21,8 +21,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
-    justify-items: flex-start;
+    
     width: auto;
     background-color: rgb(39, 39, 38);
 }
@@ -31,7 +30,7 @@ body {
     text-align: center;
     background-color: rgb(39, 39, 38);
     text-decoration: none;
-    align-self: flex-start;
+    
     color: white;
     padding: 20px 40px;
 }
@@ -84,4 +83,14 @@ body {
     justify-content: flex-end;
     min-height: auto;
     margin-top: auto;
+}
+
+.partner-with-us {
+    text-align:center;
+    background-color: whitesmoke;
+    padding: 85px;
+}
+
+.about-partners {
+    text-align: center;
 }
