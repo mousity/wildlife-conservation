@@ -40,10 +40,10 @@ body {
     background-color: #4CAF50;
 }
 
-#carousel {
-    width: 50%;
-    height: auto;
+.image {
     text-align: center;
+    width: 50%;
+    padding: 15px;
 }
 
 .footer1 {
