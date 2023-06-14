@@ -21,8 +21,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
-    justify-items: flex-start;
+    
     width: auto;
     background-color: rgb(39, 39, 38);
 }
@@ -31,7 +30,7 @@ body {
     text-align: center;
     background-color: rgb(39, 39, 38);
     text-decoration: none;
-    align-self: flex-start;
+    
     color: white;
     padding: 20px 40px;
 }
@@ -40,10 +39,10 @@ body {
     background-color: #4CAF50;
 }
 
-#carousel {
-    width: 50%;
-    height: auto;
+.image {
     text-align: center;
+    width: 50%;
+    padding: 15px;
 }
 
 .footer1 {
@@ -107,4 +106,13 @@ padding: 2%;
 
 .a-story_desc{
     padding: 2%;
+}
+.partner-with-us {
+    text-align:center;
+    background-color: whitesmoke;
+    padding: 85px;
+}
+
+.about-partners {
+    text-align: center;
 }
