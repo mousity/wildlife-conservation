@@ -21,6 +21,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: flex-start;
+    justify-items: flex-start;
     width: auto;
     background-color: rgb(39, 39, 38);
 }
@@ -29,10 +31,23 @@ body {
     text-align: center;
     background-color: rgb(39, 39, 38);
     text-decoration: none;
+    align-self: flex-start;
     color: white;
     padding: 20px 40px;
 }
 
 .button:hover {
     background-color: #4CAF50;
+}
+
+#carousel {
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
