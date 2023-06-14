@@ -1,0 +1,8 @@
+body {
+    background-color: darkolivegreen;
+}
+
+.animal-info {
+    text-align: center;
+    text-overflow: ellipsis;
+}
