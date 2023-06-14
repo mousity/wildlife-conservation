@@ -36,3 +36,13 @@ body {
 .button:hover {
     background-color: #4CAF50;
 }
+
+.partner-with-us {
+    text-align:center;
+    background-color: whitesmoke;
+    padding: 85px;
+}
+
+.about-partners {
+    text-align: center;
+}
