@@ -125,3 +125,119 @@ padding: 7%;
 .about-partners {
     text-align: center;
 }
+
+*, *::before, *::after { 
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #f0f0f0;
+}
+
+.cards {
+  color: darkgray;
+  font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards__item {
+  display: flex;
+  padding: 1rem;
+  @media(min-width: 40rem) {
+    width: 50%;
+  }
+  @media(min-width: 56rem) {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  &:hover {
+    .card__image {
+      filter: contrast(100%);
+    }
+  }
+}
+
+.card__content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.card__image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  filter: contrast(70%);
+  overflow: hidden;
+  position: relative;
+  transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);;
+  &::before {
+    content: "";
+	  display: block;
+    padding-top: 56.25%; 
+  }
+  @media(min-width: 40rem) {
+    &::before {
+      padding-top: 66.6%; 
+    }
+  }
+}
+
+.nrdc {
+  background-image: url(https://images.unsplash.com/photo-1532574754390-44dc5c6780bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+}
+
+.amazon-conservation {
+  background-image: url(https://images.unsplash.com/photo-1600521605615-a8d3a23d8262?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80);
+}
+
+.oceana {
+  background-image: url(https://images.unsplash.com/photo-1547382442-d17c21625a44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80);
+}
+
+.card__title {
+  color: lightgray;
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.card__text {
+  flex: 1 1 auto;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
