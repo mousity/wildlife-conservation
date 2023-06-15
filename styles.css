@@ -93,6 +93,9 @@ background-color: rgb(237, 237, 237);
     display:flex;
     place-items: end;
     flex-direction: row;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .a-story_img{
@@ -100,7 +103,7 @@ width: 20%;
 height: auto;
 display: flex;
 padding : 1%;
-border: 5px #4CAF50;
+
 
 }
 
