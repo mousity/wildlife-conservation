@@ -86,7 +86,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  margin-left: 38%;
   width: 100%;
   gap: 10px;
 }
@@ -94,6 +95,7 @@ body {
 .input {
   width: 300%;
   height: 30px;
+  padding-right: 70%;
 }
 
 .input2 {
