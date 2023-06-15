@@ -49,7 +49,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-between;
+    justify-content: flex-start;
     background-color: rgb(39, 39, 38);
     color: white;
     padding: 20px;
@@ -58,7 +58,9 @@ body {
 .desc {
     background-color: white;
     padding: 20px 30px;
-    font-size: larger;
+    font-size: x-large;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .body {
@@ -115,4 +117,20 @@ padding: 2%;
 
 .about-partners {
     text-align: center;
+}
+
+#trademark {
+    text-align: end;
+    padding-left: 50px;
+}
+
+.per {
+    padding-left: 10px;
+    padding-right: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.per:hover{
+    background-color:#4CAF50;
 }
