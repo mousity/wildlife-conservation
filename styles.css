@@ -87,23 +87,35 @@ body {
     margin-top: auto;
 }
 
+.a-sect{
+background-color: rgb(237, 237, 237);
+}
+
 .a-story{
     display:flex;
-    place-items: start;
+    place-items: end;
     flex-direction: row;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .a-story_img{
-width: 30%;
+width: 20%;
 height: auto;
 display: flex;
-padding:1%;
+padding : 1%;
+
+
 }
 
 .a-story_NameSpecies{
 display: flex;
 flex-direction: row;
-padding: 2%;
+padding: 7%;
+
+
+
 }
 
 .a-story_desc{
