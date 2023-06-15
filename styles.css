@@ -45,6 +45,15 @@ body {
     padding: 15px;
 }
 
+.ask {
+  text-align: center;
+  font-size: x-large;
+}
+
+.question {
+  border-radius: 5%;
+}
+
 .footer1 {
     display: flex;
     flex-direction: row;
@@ -71,6 +80,26 @@ body {
 
 .underbody {
     text-align: center;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.input {
+  width: 300%;
+  height: 30px;
+}
+
+.input2 {
+  height: 200px;
+  width: 300%;
+  margin-bottom: 50px;
 }
 
 .sect {
